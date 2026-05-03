@@ -1,16 +1,16 @@
-# ANN-DL Sentiment Analysis 🎬📊
+# ANN-DL Sentiment Analysis
 
 This project is a collaborative effort by a team of 4 members to perform **binary sentiment analysis** on movie reviews using **Artificial Neural Networks (ANN)** and **Deep Learning (DL)** techniques.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The goal of this project is to classify movie reviews as **Positive 😊** or **Negative 😞** using a deep learning model trained on the IMDB dataset. The model leverages **LSTM (Long Short-Term Memory)** networks to capture sequential patterns in text data.
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
 * Binary sentiment classification (Positive / Negative)
 * Uses IMDB Movie Review Dataset (preloaded via TensorFlow/Keras)
@@ -25,16 +25,16 @@ The goal of this project is to classify movie reviews as **Positive 😊** or **
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-* Python 🐍
+* Python
 * TensorFlow / Keras
 * NumPy
 * Keras Tuner
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 * IMDB Dataset (50,000 reviews)
 * Preprocessed using:
@@ -44,7 +44,7 @@ The goal of this project is to classify movie reviews as **Positive 😊** or **
 
 ---
 
-## ⚙️ Model Architecture
+## Model Architecture
 
 * **Embedding Layer** (learns word representations)
 * **LSTM Layer** (captures sequential dependencies)
@@ -52,7 +52,7 @@ The goal of this project is to classify movie reviews as **Positive 😊** or **
 
 ---
 
-## 🔍 Hyperparameter Tuning
+## Hyperparameter Tuning
 
 Used **Random Search** to optimize:
 
@@ -61,7 +61,7 @@ Used **Random Search** to optimize:
 * Dropout & recurrent dropout
 * Learning rate
 
-### ✅ Best Parameters Found:
+### Best Parameters Found:
 
 * Embedding Dimension: 192
 * LSTM Units: 32
@@ -71,7 +71,7 @@ Used **Random Search** to optimize:
 
 ---
 
-## 📈 Results
+## Results
 
 * **Validation Accuracy:** ~86.98%
 * **Test Accuracy:** ~85.74%
@@ -79,7 +79,7 @@ Used **Random Search** to optimize:
 
 ---
 
-## 💡 Example Prediction
+## Example Prediction
 
 Input:
 
@@ -96,7 +96,7 @@ Confidence: 65.60%
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Install dependencies:
 
@@ -114,13 +114,13 @@ python main.py
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 This is a collaborative project developed by a team of 4 members.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Use pre-trained embeddings (Word2Vec, GloVe)
 * Try Transformer-based models (BERT)
@@ -129,7 +129,7 @@ This is a collaborative project developed by a team of 4 members.
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates how deep learning models like LSTM can effectively perform sentiment analysis on textual data. With further optimization and advanced architectures, performance can be significantly improved for real-world applications.
 
